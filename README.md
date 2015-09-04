@@ -1,8 +1,13 @@
 HaagaHeliaPublic login tool
 ===========================
 
+
+### NetworkManger ###
 To automagically send credentials, when using NetworkManager, Put HaagaHeliaPublic.nm.sh to /etc/network/if-up.d/
-If you dont use NetworkManager or you want to run the script manually, use HaagaHeliaPublic.sh. 
+
+
+### Manual use ###
+To use the script manually run HaagaHeliaPublic.sh. 
 Remember to put your credentials to $HOME/.HaagaHeliaPublic.cred and chmod 400 $HOME/.HaagaHeliaPublic.cred
 
 ~~~bash
